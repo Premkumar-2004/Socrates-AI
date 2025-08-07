@@ -1,27 +1,52 @@
-🧠 Socrates AI - Automation Agent
-Tech Stack: Python, ScribeAI, Google Gemini, ApertureDB, AWS
+🤖 Socrates AI – Your Intelligent Workflow Assistant
+A multi-modal automation agent that turns natural language into action.
 
-🏆 Achievement:
-4th Place in Tredence Infinity AI Hackathon, competing among 900+ teams.
+🔗 Live Demo   |   📂 GitHub Repo   |   📽️ Slides/Presentation
 
-🔍 Overview:
-Socrates AI is a multi-modal intelligent automation agent designed to perform complex browser-based tasks using natural language instructions. It brings together various AI components to interpret, plan, and execute workflows, essentially acting as a smart assistant for navigating and processing SaaS platforms.
+🏆 Achievement
+🥇 4th Place at Tredence Infinity AI Hackathon
+Competed among 900+ teams, recognized for innovation and high-impact automation.
 
-🚀 Key Features:
-Natural Language Execution: Converts user input into actionable browser tasks using a Chain-of-Thought reasoning system.
+📌 What is Socrates AI?
+Socrates AI is an intelligent assistant that automates complex browser tasks using plain English. Powered by cutting-edge language models, it understands multi-modal content (text, video, guides) and executes workflows with high accuracy, helping users interact with SaaS tools efficiently.
 
-Multi-Modal Input Handling: Processes and learns from diverse content — including text, images, videos, and documentation.
+🚀 Key Features
+🧠 Natural Language Commands: Executes tasks based on user input like “Download last month’s sales report.”
 
-Knowledge Base Creation: Uses ScribeAI to collect SaaS guides and tutorials and stores them in ApertureDB for structured access and semantic search.
+📚 Knowledge Indexing: Uses ScribeAI to extract insights from product guides, help docs, and videos.
 
-Automation Accuracy: Achieves over 90% task execution accuracy, reducing manual effort across repetitive workflows.
+🗂️ Semantic Memory: Stores and retrieves content using ApertureDB for structured access.
 
-📦 Architecture Components:
-ScribeAI: Extracts instructional content from different sources.
+🔁 Automated Workflows: Performs browser actions with over 90% execution accuracy.
 
-Google Gemini / LLM: Performs reasoning, intent recognition, and instruction planning.
+☁️ Scalable Backend: Hosted and orchestrated using AWS services.
 
-ApertureDB: Acts as a fast, indexed multimedia knowledge base.
+🛠️ Tech Stack
+Component	Technology
+Backend	Python, AWS Lambda
+AI/LLM	Google Gemini
+Data Ingestion	ScribeAI
+Multimedia DB	ApertureDB
+Automation Layer	Custom Browser Agent
 
-AWS: Used for backend orchestration and hosting services.
+📸 Example Use Case
+“Open Salesforce → Go to Opportunities → Export the Q2 closed deals report → Email to finance team”
+
+Socrates interprets, plans, and automates this task using guides + prior context.
+
+🔗 Resources
+🖥️ Live Demo
+
+📂 GitHub Repository
+
+📽️ Pitch Deck / Slides
+
+🌐 Hackathon Page
+
+🙌 Built With
+💡 Inspiration: Streamline SaaS tool navigation for non-technical users
+
+🛠️ Tools: Python, Gemini, ScribeAI, ApertureDB, AWS
+
+👨‍💻 Team: 3 developers, 1 designer, 48 hours of development
 
